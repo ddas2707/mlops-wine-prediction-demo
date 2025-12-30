@@ -1,0 +1,4 @@
+[core]
+    remote = wine_mlops_remote
+['remote "wine_mlops_remote"']
+    url = s3://mlops-demo-dhrub-dvc-bucket
