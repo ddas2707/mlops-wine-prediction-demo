@@ -1,0 +1,22 @@
+python3.12 -m venv .venv 
+source .venv/bin/activate
+
+python3 -m pip install dvc
+python3 -m pip install dvc_s3
+
+
+
+
+
+
+
+
+
+for DVC
+dvc --version
+dvc init
+dvc add <_data.name_> -----------> eg.dvc add data/wine_sample.csv
+dvc remote add -d wineremote s3://<_bucket_name_> 
+
+aws configure ---> access key credentials
+
