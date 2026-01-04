@@ -1,0 +1,22 @@
+#We are setting up mlflow for this repo 
+#so these r the steps for a data scientist
+
+#1.Clone the Repo 
+#2.Create a virtual environment
+	 python3 -m venv .venv
+	 source .venv/bin/activate
+#3.ls data  --> python3 -m pip install dvc ---> python3 -m pip install dvc_s3
+#4. Once done, pull the ds from dvc using --> dvc pull
+dvc pull                                                                                                                                 ─╯
+Collecting                                                                                                           |1.00 [00:00,  498entry/s]
+Fetching
+Building workspace index                                                                                             |2.00 [00:00,  798entry/s]
+Comparing indexes                                                                                                   |3.00 [00:00, 2.68kentry/s]
+Applying changes                                                                                                     |0.00 [00:00,     ?file/s]
+Everything is up to date.
+
+
+#5.run --> python3 train.py
+all the changes will be updated to the mlflow dashboard
+
+
